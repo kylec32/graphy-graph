@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2718747B1090BBD200243DA7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271874791090BBD200243DA7 /* GLUT.framework */; };
+		2718747C1090BBD200243DA7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2718747A1090BBD200243DA7 /* OpenGL.framework */; };
+		2718749F1094E29500243DA7 /* button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 271874991094E29500243DA7 /* button.cpp */; };
+		271874A01094E29500243DA7 /* roundButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718749B1094E29500243DA7 /* roundButton.cpp */; };
+		271874A11094E29500243DA7 /* roundRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718749D1094E29500243DA7 /* roundRect.cpp */; };
+		2718754C1094EBB300243DA7 /* GraphingCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271874701090BB8800243DA7 /* Graphics Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graphics Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271874731090BB8800243DA7 /* Graphics Calc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Graphics Calc-Info.plist"; sourceTree = "<group>"; };
+		271874791090BBD200243DA7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		2718747A1090BBD200243DA7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		271874851090BC2300243DA7 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
+		271874991094E29500243DA7 /* button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = button.cpp; sourceTree = "<group>"; };
+		2718749A1094E29500243DA7 /* button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
+		2718749B1094E29500243DA7 /* roundButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roundButton.cpp; sourceTree = "<group>"; };
+		2718749C1094E29500243DA7 /* roundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roundButton.h; sourceTree = "<group>"; };
+		2718749D1094E29500243DA7 /* roundRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roundRect.cpp; sourceTree = "<group>"; };
+		2718749E1094E29500243DA7 /* roundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roundRect.h; sourceTree = "<group>"; };
+		2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphingCalculator.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2718746E1090BB8800243DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2718747B1090BBD200243DA7 /* GLUT.framework in Frameworks */,
+				2718747C1090BBD200243DA7 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271874611090BB7000243DA7 = {
+			isa = PBXGroup;
+			children = (
+				2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */,
+				271874851090BC2300243DA7 /* graphics.h */,
+				271874991094E29500243DA7 /* button.cpp */,
+				2718749A1094E29500243DA7 /* button.h */,
+				2718749B1094E29500243DA7 /* roundButton.cpp */,
+				2718749C1094E29500243DA7 /* roundButton.h */,
+				2718749D1094E29500243DA7 /* roundRect.cpp */,
+				2718749E1094E29500243DA7 /* roundRect.h */,
+				271874791090BBD200243DA7 /* GLUT.framework */,
+				2718747A1090BBD200243DA7 /* OpenGL.framework */,
+				271874711090BB8800243DA7 /* Products */,
+				271874731090BB8800243DA7 /* Graphics Calc-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		271874711090BB8800243DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271874701090BB8800243DA7 /* Graphics Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2718746F1090BB8800243DA7 /* Graphics Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271874761090BB8900243DA7 /* Build configuration list for PBXNativeTarget "Graphics Calc" */;
+			buildPhases = (
+				2718746C1090BB8800243DA7 /* Resources */,
+				2718746D1090BB8800243DA7 /* Sources */,
+				2718746E1090BB8800243DA7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Graphics Calc";
+			productName = "Graphics Calc";
+			productReference = 271874701090BB8800243DA7 /* Graphics Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271874631090BB7000243DA7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 271874661090BB7000243DA7 /* Build configuration list for PBXProject "graphics" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 271874611090BB7000243DA7;
+			productRefGroup = 271874711090BB8800243DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2718746F1090BB8800243DA7 /* Graphics Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2718746C1090BB8800243DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2718746D1090BB8800243DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2718749F1094E29500243DA7 /* button.cpp in Sources */,
+				271874A01094E29500243DA7 /* roundButton.cpp in Sources */,
+				271874A11094E29500243DA7 /* roundRect.cpp in Sources */,
+				2718754C1094EBB300243DA7 /* GraphingCalculator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		271874641090BB7000243DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		271874651090BB7000243DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		271874741090BB8900243DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Graphics Calc-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Graphics Calc";
+			};
+			name = Debug;
+		};
+		271874751090BB8900243DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Graphics Calc-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Graphics Calc";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271874661090BB7000243DA7 /* Build configuration list for PBXProject "graphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271874641090BB7000243DA7 /* Debug */,
+				271874651090BB7000243DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271874761090BB8900243DA7 /* Build configuration list for PBXNativeTarget "Graphics Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271874741090BB8900243DA7 /* Debug */,
+				271874751090BB8900243DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271874631090BB7000243DA7 /* Project object */;
+}
