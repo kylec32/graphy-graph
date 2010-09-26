@@ -43,23 +43,23 @@ GLfloat blueMaterial[] = {0.1, 0.2, 0.7, 1.0};
 GLfloat whiteMaterial[] = {1.0, 1.0, 1.0, 1.0};
 GLfloat blackMaterial[] = {0.0, 0.0, 0.0, 0.0};
 
-float low_x = -350;
-float high_x = 350;//70
-float low_y = -250;
-float high_y = 250;//50
+//float low_x = -350;
+//float high_x = 350;//70
+//float low_y = -250;
+//float high_y = 250;//50
 
-float vLeft=low_x;
-float vRight=high_x;
-float vBottom=low_y;
-float vTop=high_y;
+float vLeft=-350;
+float vRight=350;
+float vBottom=-250;
+float vTop=250;
 
 float disLo_x=-5;
 float disHi_x=5;
 float disLo_y=-5;
 float disHi_y=5;
 
-double dividerX=high_x/disHi_x;
-double dividerY=high_y/disHi_y;
+double dividerX=vRight/disHi_x;
+double dividerY=vTop/disHi_y;
 
 float screen_x = 700;
 float screen_y = 500;
@@ -69,10 +69,8 @@ string equStr="x*x*x", hiXstr, loXstr, hiYstr, loYstr, postFix;
 double roundiness = 5;
 double bRed=.4, bGreen=.4, bBlue=.4;
 
-//double x1=low_x*.95, ylow=high_y*.8, x2=low_x*.75, y2=high_y*.95;
 double x1=vLeft*.95, ylow=vTop*.8, x2=vLeft*.75, y2=vTop*.95;
 double cYlow=0, cx2=0;
-//double x1=-340, ylow=200, x2=-250, y2=245;
 
 button changeDimBut(x1, ylow, x2, y2, roundiness, bRed, bGreen, bBlue, "Edit");
 
@@ -94,7 +92,7 @@ roundButton clHiY(x1, ylow, roundiness, 1, 0, 0, "CL");
 
 //done button
  
-button donEdit(high_x*.25, low_y*.6, high_x*.55, low_y*.5, roundiness, 0, 1, 0, "Done"); 
+button donEdit(vRight*.25, vBottom*.6, vRight*.55, vBottom*.5, roundiness, 0, 1, 0, "Done"); 
 
 
 bool openEdit=false, closeEdit=false;
@@ -108,10 +106,12 @@ int shiftX=0, shiftY=0;
 
 int lastMouseX;
 int lastMouseY;
-float last_low_x=low_x;
-float last_high_x=high_x;
-float last_low_y=low_y;
-float last_high_y=high_y;
+float last_low_x=vLeft;
+float last_high_x=vRight;
+float last_low_y=vBottom;
+float last_high_y=vTop;
+
+string winTitle;
 // 
 // Functions that draw basic primitives
 //
@@ -214,6 +214,22 @@ void DrawAxis()
 {
 	DrawLine(0, vBottom, 0, vTop);
 	DrawLine(vLeft, 0, vRight, 0);
+	for(int i=0; i<vRight; i+=dividerX)
+	{
+		DrawLine(i, 0, i, 10);
+	}
+	for(int i=0; i>vLeft; i-=dividerX)
+	{
+		DrawLine(i, 0, i, 10);
+	}
+	for(int i=0; i<vTop; i+=dividerY)
+	{
+		DrawLine(0, i, 10, i);
+	}
+	for(int i=0; i>vBottom; i-=dividerY)
+	{
+		DrawLine(0, i, 10, i);
+	}
 }
 
 void DrawRectangle(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2)
@@ -299,24 +315,18 @@ void DrawCurve()
 	float y = MathExpression(x);
 	float increment = (vRight - vLeft)/(vRight-vLeft);
 	glBegin(GL_LINE_STRIP);
-	//glVertex2f(x,y*dividerY);
-	//for(x=vLeft+increment; x<=vRight; x += increment)
-//	{
-//		y = MathExpression(x/dividerX);
-//		glVertex2f(x,y*dividerY);
-//	}
 	for(x=vLeft+increment; x<=vRight; x += increment)
 	{
 		
 		if(x<=0)
 		{
 			y = MathExpression((x/dividerX)*disHi_x);
-			glVertex2f(x*2*(disHi_x-disLo_x)/2,(y*dividerY)*disHi_y);
+			glVertex2f(x*(disHi_x-disLo_x),(y*dividerY)*disHi_y);
 		}
 		else if(x>0)
 		{
 			y = MathExpression((x/dividerX)*disLo_x);
-			glVertex2f(x*2*(disHi_x-disLo_x)/2,(y*dividerY)*disLo_y);
+			glVertex2f(x*(disHi_x-disLo_x),(y*dividerY)*disLo_y);
 		}
 		
 	}
@@ -349,28 +359,25 @@ void fixEvery()
 	
 	if(!edit && !openEdit && !closeEdit)
 	{
-	//double x1=low_x*.95, ylow=high_y*.8, x2=low_x*.75, y2=high_y*.95;
 		
 		
 	double x1=indeX(screen_x*.01), ylow=indeY(screen_y*.85), x2=indeX(screen_x*.15), y2=indeY(screen_y*.98);
 	changeDimBut.changeSize(x1, ylow, x2, y2);
 		
-		sprintf(buffer, "%f", high_x/dividerX);
+		sprintf(buffer, "%f", vRight/dividerX);
 		hiXstr=buffer;
-		sprintf(buffer, "%f", low_x/dividerX);
+		sprintf(buffer, "%f", vLeft/dividerX);
 		loXstr=buffer;
-		sprintf(buffer, "%f", high_y/dividerY);
+		sprintf(buffer, "%f", vTop/dividerY);
 		hiYstr=buffer;
-		sprintf(buffer, "%f", low_y/dividerY);
+		sprintf(buffer, "%f", vBottom/dividerY);
 		loYstr=buffer;
 		
 	}
 	
-	double dividerX=high_x/disHi_x;
-	double dividerY=high_y/disHi_y;
-	
-
-	
+	double dividerX=vRight/disHi_x;
+	double dividerY=vTop/disHi_y;
+		
 }
 
 // This callback function gets called by the Glut
@@ -428,7 +435,7 @@ void display(void)
 		hiXfil.draw();
 		clHiX.draw();	
 		
-		sprintf(buffer, "%f", high_x/dividerX);
+		sprintf(buffer, "%f", vRight/dividerX);
 		text_output(indeX(screen_x*.8), indeY(screen_y*.78), buffer);
 		
 		text_output(indeX(screen_x*.36), indeY(screen_y*.69), "Low X:");
@@ -442,7 +449,7 @@ void display(void)
 		loXfil.draw();
 		clLoX.draw();
 		
-		sprintf(buffer, "%f", low_x/dividerX);
+		sprintf(buffer, "%f", vLeft/dividerX);
 		text_output(indeX(screen_x*.8), indeY(screen_y*.69), buffer);
 		
 		text_output(indeX(screen_x*.35), indeY(screen_y*.5), "High Y:");
@@ -456,7 +463,7 @@ void display(void)
 		hiYfil.draw();
 		clHiY.draw();
 		
-		sprintf(buffer, "%f", high_y/dividerY);
+		sprintf(buffer, "%f", vTop/dividerY);
 		text_output(indeX(screen_x*.8), indeY(screen_y*.5), buffer);
 		
 		text_output(indeX(screen_x*.36), indeY(screen_y*.4), "Low Y:");
@@ -470,7 +477,7 @@ void display(void)
 		loYfil.draw();
 		clLoY.draw();
 		
-		sprintf(buffer, "%f", low_y/dividerY);
+		sprintf(buffer, "%f", vBottom/dividerY);
 		text_output(indeX(screen_x*.8), indeY(screen_y*.4), buffer);
 		
 		donEdit.changeSize(indeX(screen_x*.7), indeY(screen_y*.15), indeX(screen_x*.9), indeY(screen_y*.25));
@@ -578,10 +585,6 @@ void keyboard(unsigned char c, int x, int y)
 				exit(0);
 			break;
 		case 'c':
-			high_x;
-			low_x;
-			high_y;
-			low_y;
 			dividerX;
 			dividerY;
 			disLo_x;
@@ -624,6 +627,7 @@ void mouse(int mouse_button, int state, int x, int y)
 				repeat=true;
 				openEdit=true;
 			}
+			cout<<hiXstr;
 		}
 		
 		else if(edit)
@@ -641,9 +645,14 @@ void mouse(int mouse_button, int state, int x, int y)
 				eLoY=false;
 				InfixToPostfix(equStr);
 				disHi_x=atoi(hiXstr.c_str());
+				cout<<disHi_x;
 				disLo_x=atoi(loXstr.c_str());
 				disHi_y=atoi(hiYstr.c_str());
 				disLo_y=atoi(loYstr.c_str());
+				winTitle = "Graphing Calculator - "+equStr;
+				glutSetWindowTitle(winTitle.c_str());
+
+				
 			}
 			else if(equInFil.inButton(x,y))
 			{
@@ -713,13 +722,13 @@ void mouse(int mouse_button, int state, int x, int y)
 	{
 		lastMouseX=x;
 		lastMouseY=y;
-		last_low_x=low_x;
+		//last_low_x=low_x;
 		last_low_x=vLeft;
-		 last_high_x=high_x;
+		 //last_high_x=high_x;
 		last_high_x=vRight;
-		 last_low_y=low_y;
+		 //last_low_y=low_y;
 		last_low_y=vBottom;
-		last_high_y=high_y;
+		//last_high_y=high_y;
 		last_high_y=vTop;
 		//if(clickedX<0 && x<0)
 //		{
@@ -778,8 +787,8 @@ void motion(int x, int y)
 	
 	
 	
-	y=screen_y-y+low_y;
-	x=x+low_x;
+	y=screen_y-y+vBottom;
+	x=x+vLeft;
 	//y=screen_y-y+vBottom;
 	//x=x+vLeft;
 		
@@ -788,6 +797,7 @@ void motion(int x, int y)
 	vRight=last_high_x + (clickedX -x);
 	vTop=last_high_y + (clickedY - y);
 	vBottom=last_low_y + (clickedY -y);
+	
 	reshape(screen_x, screen_y);
 	glutPostRedisplay();
 	
@@ -809,8 +819,8 @@ int main(int argc, char **argv)
 //	cin>>infix;
 //	postFix=InfixToPostfix(infix);
 	
-	
-	glutCreateWindow("Graphing Calculator");
+	winTitle = "Graphing Calculator - " + equStr;
+	glutCreateWindow(winTitle.c_str());
 
 	glutDisplayFunc(display);
 	glutKeyboardFunc(keyboard);

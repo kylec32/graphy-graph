@@ -1,3 +1,11 @@
+cb68224ba4a9684543da03ef8951ddde 180f73bff8b3d9fb93e03e9267a33f3d ffffffffffffffffffffffffffffffff 136 /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app
+4e5fc9ebff1305a4ff9b407e85cc7b85 8537eba05bba6de1bc4143910c9da65b ffffffffffffffffffffffffffffffff 115056 /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc
+000000000000a3d6000000000000243c 751fed8f58edaf3a7d54b852c634e6f6 ffffffffffffffffffffffffffffffff 247552 /Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o
+0000000006c26b3f0000000000001c3e a39a7afea7382115449887dc92a095b6 ffffffffffffffffffffffffffffffff 18680 /Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o
+000000004cb2621f0000000000004bd7 a45107f2186b8a5dcbc7f100dcffe57f ffffffffffffffffffffffffffffffff 15444 /Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o
+000000004c9e7f9800000000000046c4 3c8b59681809dd6e0d908ef00db9c29b ffffffffffffffffffffffffffffffff 21260 /Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o
+00000000000000000000000000000000 1c78670963b585fedb7aaa9e7f7efb7e ffffffffffffffffffffffffffffffff 8 /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/PkgInfo
+00000000000000000000000000000000 1c78670963b585fedb7aaa9e7f7efb7e ffffffffffffffffffffffffffffffff 843 /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist
 520cb85913c83ab738210ea5c9dee322 e62bed2d479ccfdb807ef42ad9c9569b ffffffffffffffffffffffffffffffff 102 /Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app
 00000000000000000000000000000000 ac4a0678af5c2f88d878f4be145ef62c ffffffffffffffffffffffffffffffff 8 /Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/PkgInfo
 00000000000000000000000000000000 ac4a0678af5c2f88d878f4be145ef62c ffffffffffffffffffffffffffffffff 843 /Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/Info.plist
