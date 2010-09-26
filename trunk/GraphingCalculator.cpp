@@ -48,6 +48,8 @@ GLfloat blackMaterial[] = {0.0, 0.0, 0.0, 0.0};
 //float low_y = -250;
 //float high_y = 250;//50
 
+void reshape(int w, int h);
+
 float vLeft=-350;
 float vRight=350;
 float vBottom=-250;
@@ -651,6 +653,13 @@ void mouse(int mouse_button, int state, int x, int y)
 				disLo_y=atoi(loYstr.c_str());
 				winTitle = "Graphing Calculator - "+equStr;
 				glutSetWindowTitle(winTitle.c_str());
+				
+				vLeft=dividerX*disLo_x;
+				vRight=dividerX*disHi_x;
+				vTop=dividerY*disHi_y;
+				vBottom=dividerY*disLo_y;
+
+				reshape(screen_x, screen_y);
 
 				
 			}
