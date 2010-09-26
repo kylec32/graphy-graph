@@ -1,15 +1,15 @@
 TGraphics Calc
 v7
 r0
-t307148211.759296
+t307172300.939701
 cCheck dependencies
-cProcessInfoPlistFile "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/Info.plist" "Graphics Calc-Info.plist"
-cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o" "/Users/kyle/Dropbox/Graphy Graph/button.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o" "/Users/kyle/Dropbox/Graphy Graph/roundButton.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o" "/Users/kyle/Dropbox/Graphy Graph/roundRect.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o" "/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cLd "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc" normal i386
-cTouch "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app"
+cProcessInfoPlistFile "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist" "Graphics Calc-Info.plist"
+cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o" /Users/kyle/Dropbox/Graphy-Graph/button.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o" /Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o" /Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o" /Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc" normal i386
+cTouch "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app"
 
 N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
 c000000004A1198340000000000003197
@@ -157,6 +157,130 @@ s1293
 i<GLUT/GLUT.h>
 i"glut.h"
 
+N/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp
+c000000004C9EDC48000000000000453E
+t1285479496
+s17726
+i<stdlib.h>
+i<stdio.h>
+i<assert.h>
+i<math.h>
+i<string.h>
+i<iostream>
+i<time.h>
+i<GLUT/GLUT.h>
+i"glut.h"
+i<stack>
+i<string>
+i"button.h"
+i"roundButton.h"
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app
+t1285479500
+s136
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist
+t1285474956
+s843
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc
+t1285479500
+s115056
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/PkgInfo
+t1285474956
+s8
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/Graphics Calc.LinkFileList
+c000000004C9ECA8C00000000000001C8
+t1285474956
+s456
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o
+t1285479498
+s247552
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o
+t1285474957
+s21260
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o
+t1285474956
+s15444
+
+N/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o
+t1285474957
+s18680
+
+N/Users/kyle/Dropbox/Graphy-Graph/button.cpp
+c000000004C9E7F980000000000001093
+t1285455768
+s4243
+i<cstdlib>
+i<stdio.h>
+i<string.h>
+i"button.h"
+i<GLUT/GLUT.h>
+i"glut.h"
+
+N/Users/kyle/Dropbox/Graphy-Graph/button.h
+c000000004C9E7F98000000000000051F
+t1285455768
+s1311
+i<cstdlib>
+i<cmath>
+i"roundRect.h"
+
+N/Users/kyle/Dropbox/Graphy-Graph/glut.h
+c000000004C9E7F980000000000006F21
+t1285455768
+s28449
+i<windows.h>
+i<stddef.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Users/kyle/Dropbox/Graphy-Graph/graphics.h
+c000000004C9E7F98000000000000018A
+t1285455768
+s394
+i<GLUT/GLUT.h>
+i"glut.h"
+
+N/Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp
+c000000004C9E7F980000000000000C08
+t1285455768
+s3080
+i"roundButton.h"
+i<GLUT/GLUT.h>
+i"glut.h"
+i<stdio.h>
+i<string.h>
+i<math.h>
+
+N/Users/kyle/Dropbox/Graphy-Graph/roundButton.h
+c000000004C9E7F980000000000000414
+t1285455768
+s1044
+i<cstdlib>
+
+N/Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp
+c000000004C9E7F980000000000000F37
+t1285455768
+s3895
+i<cstdlib>
+i"graphics.h"
+i"roundRect.h"
+i<cmath>
+i<time.h>
+
+N/Users/kyle/Dropbox/Graphy-Graph/roundRect.h
+c000000004C9E7F98000000000000050D
+t1285455768
+s1293
+i<GLUT/GLUT.h>
+i"glut.h"
+
 N/usr/include/assert.h
 c000000004A5C14A60000000000000DCB
 t1247548582
@@ -193,13 +317,13 @@ t1247548583
 s6030
 
 NGraphics Calc-Info.plist
-c000000004AE08408000000000000037F
-t1256227848
+c000000004C9E7F98000000000000037F
+t1285455768
 s895
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies307148211#307148211#0(0"0(0#1#0"4300931360#0"0#
+lSLF07#2@18"Check dependencies307172300#307172300#0(0"0(0#1#0"4300931360#0"0#
 
 CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o" "/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s307148099.528140
@@ -234,6 +358,19 @@ o/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:510: warning: deprecate
 o/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:541: warning: deprecated conversion from string constant to 'char*'
 lSLF07#2@63"Compile /Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307148099#307148105#0(2431"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:77: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:81: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:82: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:83: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:84: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:85: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:88: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:89: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:90: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:91: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:92: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:97: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp: In function 'void display()':/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:404: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:420: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:434: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:448: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:462: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:510: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp:541: warning: deprecated conversion from string constant to 'char*'19(22@53"Deprecated conversion from string constant to 'char*'307148103#0#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#77#0#77#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#123#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#81#0#81#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#246#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#82#0#82#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#369#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#83#0#83#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#492#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#84#0#84#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#615#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#85#0#85#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#738#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#88#0#88#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#861#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#89#0#89#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#984#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#90#0#90#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1107#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#91#0#91#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1230#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#92#0#92#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1353#123#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#97#0#97#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1563#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#404#0#404#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1687#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#420#0#420#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1811#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#434#0#434#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#1935#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#448#0#448#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#2059#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#462#0#462#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#2183#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#510#0#510#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307148103#2307#124#0(6@55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp307143606#541#0#541#0#49"deprecated conversion from string constant to '*'0(0#0#55"/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp4300931360#1243"    cd "/Users/kyle/Dropbox/Graphy Graph"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" "-F/Users/kyle/Dropbox/Graphy Graph/build/Debug" "-I/Users/kyle/Dropbox/Graphy Graph/build/Debug/include" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c "/Users/kyle/Dropbox/Graphy Graph/GraphingCalculator.cpp" -o "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o"0#
 
+CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o" /Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307172300.823930
+e307172300.825953
+r1
+xCompileC
+xbuild/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o
+x/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172300#307172300#0(2431"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:75: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:79: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:80: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:81: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:82: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:83: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:86: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:87: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:88: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:89: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:90: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:95: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp: In function 'void display()':/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:411: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:427: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:441: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:455: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:469: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:517: warning: deprecated conversion from string constant to 'char*'/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp:548: warning: deprecated conversion from string constant to 'char*'19(22@53"Deprecated conversion from string constant to 'char*'307172300#0#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#75#0#75#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#123#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#79#0#79#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#246#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#80#0#80#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#369#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#81#0#81#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#492#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#82#0#82#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#615#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#83#0#83#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#738#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#86#0#86#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#861#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#87#0#87#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#984#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#88#0#88#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1107#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#89#0#89#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1230#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#90#0#90#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1353#123#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#95#0#95#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1563#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#411#0#411#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1687#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#427#0#427#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1811#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#441#0#441#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#1935#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#455#0#455#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#2059#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#469#0#469#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#2183#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#517#0#517#0#49"deprecated conversion from string constant to '*'0(22@53"Deprecated conversion from string constant to 'char*'307172300#2307#124#0(6@55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp307172296#548#0#548#0#49"deprecated conversion from string constant to '*'0(0#0#55"/Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp4300931360#1235"    cd /Users/kyle/Dropbox/Graphy-Graph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" -F/Users/kyle/Dropbox/Graphy-Graph/build/Debug -I/Users/kyle/Dropbox/Graphy-Graph/build/Debug/include "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c /Users/kyle/Dropbox/Graphy-Graph/GraphingCalculator.cpp -o "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/GraphingCalculator.o"0#
+
 CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o" "/Users/kyle/Dropbox/Graphy Graph/button.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s307148098.046354
 e307148099.528024
@@ -246,6 +383,19 @@ xi386
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@51"Compile /Users/kyle/Dropbox/Graphy Graph/button.cpp307148098#307148099#0(0"0(0#0#43"/Users/kyle/Dropbox/Graphy Graph/button.cpp8386658438684291072#1219"    cd "/Users/kyle/Dropbox/Graphy Graph"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" "-F/Users/kyle/Dropbox/Graphy Graph/build/Debug" "-I/Users/kyle/Dropbox/Graphy Graph/build/Debug/include" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c "/Users/kyle/Dropbox/Graphy Graph/button.cpp" -o "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o"0#
+
+CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o" /Users/kyle/Dropbox/Graphy-Graph/button.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307167756.571125
+e307167757.145561
+r1
+xCompileC
+xbuild/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o
+x/Users/kyle/Dropbox/Graphy-Graph/button.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/kyle/Dropbox/Graphy-Graph/button.cpp307167756#307167757#0(0"0(0#0#43"/Users/kyle/Dropbox/Graphy-Graph/button.cpp4300931360#1211"    cd /Users/kyle/Dropbox/Graphy-Graph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" -F/Users/kyle/Dropbox/Graphy-Graph/build/Debug -I/Users/kyle/Dropbox/Graphy-Graph/build/Debug/include "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c /Users/kyle/Dropbox/Graphy-Graph/button.cpp -o "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/button.o"0#
 
 CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o" "/Users/kyle/Dropbox/Graphy Graph/roundButton.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s307148098.063942
@@ -260,6 +410,19 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/kyle/Dropbox/Graphy Graph/roundButton.cpp307148098#307148099#0(0"0(0#0#48"/Users/kyle/Dropbox/Graphy Graph/roundButton.cpp4300931360#1229"    cd "/Users/kyle/Dropbox/Graphy Graph"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" "-F/Users/kyle/Dropbox/Graphy Graph/build/Debug" "-I/Users/kyle/Dropbox/Graphy Graph/build/Debug/include" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c "/Users/kyle/Dropbox/Graphy Graph/roundButton.cpp" -o "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o"0#
 
+CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o" /Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307167756.585571
+e307167756.995075
+r1
+xCompileC
+xbuild/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o
+x/Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp307167756#307167756#0(0"0(0#0#48"/Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp4300931360#1221"    cd /Users/kyle/Dropbox/Graphy-Graph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" -F/Users/kyle/Dropbox/Graphy-Graph/build/Debug -I/Users/kyle/Dropbox/Graphy-Graph/build/Debug/include "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c /Users/kyle/Dropbox/Graphy-Graph/roundButton.cpp -o "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundButton.o"0#
+
 CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o" "/Users/kyle/Dropbox/Graphy Graph/roundRect.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
 s307148099.519704
 e307148099.844260
@@ -273,6 +436,19 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@54"Compile /Users/kyle/Dropbox/Graphy Graph/roundRect.cpp307148099#307148099#0(0"0(0#0#46"/Users/kyle/Dropbox/Graphy Graph/roundRect.cpp8386658438684291072#1225"    cd "/Users/kyle/Dropbox/Graphy Graph"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" "-F/Users/kyle/Dropbox/Graphy Graph/build/Debug" "-I/Users/kyle/Dropbox/Graphy Graph/build/Debug/include" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c "/Users/kyle/Dropbox/Graphy Graph/roundRect.cpp" -o "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o"0#
 
+CCompileC "build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o" /Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s307167756.995203
+e307167757.353735
+r1
+xCompileC
+xbuild/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o
+x/Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp307167756#307167757#0(0"0(0#0#46"/Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp4300931360#1217"    cd /Users/kyle/Dropbox/Graphy-Graph    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-generated-files.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-own-target-headers.hmap" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-all-target-headers.hmap" -iquote "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Graphics Calc-project-headers.hmap" -F/Users/kyle/Dropbox/Graphy-Graph/build/Debug -I/Users/kyle/Dropbox/Graphy-Graph/build/Debug/include "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources/i386" "-I/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/DerivedSources" -c /Users/kyle/Dropbox/Graphy-Graph/roundRect.cpp -o "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/roundRect.o"0#
+
 CLd "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc" normal i386
 s307148105.606620
 e307148107.942304
@@ -283,6 +459,16 @@ xnormal
 xi386
 lSLF07#2@96"Link /Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc307148105#307148107#0(0"0(0#0#0"4300931360#492"    cd "/Users/kyle/Dropbox/Graphy Graph"    /Developer/usr/bin/g++-4.2 -arch i386 "-L/Users/kyle/Dropbox/Graphy Graph/build/Debug" "-F/Users/kyle/Dropbox/Graphy Graph/build/Debug" -filelist "/Users/kyle/Dropbox/Graphy Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/Graphics Calc.LinkFileList" -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc"0#
 
+CLd "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc" normal i386
+s307172300.826032
+e307172300.936204
+r1
+xLd
+x/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc
+xnormal
+xi386
+lSLF07#2@96"Link /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc307172300#307172300#0(0"0(0#0#0"4300931360#486"    cd /Users/kyle/Dropbox/Graphy-Graph    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/kyle/Dropbox/Graphy-Graph/build/Debug -F/Users/kyle/Dropbox/Graphy-Graph/build/Debug -filelist "/Users/kyle/Dropbox/Graphy-Graph/build/graphics.build/Debug/Graphics Calc.build/Objects-normal/i386/Graphics Calc.LinkFileList" -framework Foundation -framework AppKit -framework GLUT -framework OpenGL -o "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/MacOS/Graphics Calc"0#
+
 CProcessInfoPlistFile "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/Info.plist" "Graphics Calc-Info.plist"
 s307148211.606638
 e307148211.677213
@@ -292,6 +478,15 @@ x/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/Info.pl
 xGraphics Calc-Info.plist
 lSLF07#2@32"Process Graphics Calc-Info.plist307148211#307148211#0(0"0(0#0#57"/Users/kyle/Dropbox/Graphy Graph/Graphics Calc-Info.plist4300931360#318"    cd "/Users/kyle/Dropbox/Graphy Graph"    builtin-infoPlistUtility "Graphics Calc-Info.plist" -genpkginfo "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app/Contents/Info.plist"0#
 
+CProcessInfoPlistFile "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist" "Graphics Calc-Info.plist"
+s307167756.510130
+e307167756.570917
+r1
+xProcessInfoPlistFile
+x/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist
+xGraphics Calc-Info.plist
+lSLF07#2@32"Process Graphics Calc-Info.plist307167756#307167756#0(0"0(0#0#57"/Users/kyle/Dropbox/Graphy-Graph/Graphics Calc-Info.plist7297009404609131520#316"    cd /Users/kyle/Dropbox/Graphy-Graph    builtin-infoPlistUtility "Graphics Calc-Info.plist" -genpkginfo "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app/Contents/Info.plist"0#
+
 CTouch "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app"
 s307148211.752268
 e307148211.759094
@@ -299,4 +494,12 @@ r1
 xTouch
 x/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app
 lSLF07#2@68"Touch /Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app307148211#307148211#0(0"0(0#0#0"4300931360#129"    cd "/Users/kyle/Dropbox/Graphy Graph"    /usr/bin/touch -c "/Users/kyle/Dropbox/Graphy Graph/build/Debug/Graphics Calc.app"0#
+
+CTouch "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app"
+s307172300.936306
+e307172300.939659
+r1
+xTouch
+x/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app
+lSLF07#2@68"Touch /Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app307172300#307172300#0(0"0(0#0#0"4300931360#127"    cd /Users/kyle/Dropbox/Graphy-Graph    /usr/bin/touch -c "/Users/kyle/Dropbox/Graphy-Graph/build/Debug/Graphics Calc.app"0#
 
