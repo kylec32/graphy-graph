@@ -13,6 +13,7 @@
 		271874A01094E29500243DA7 /* roundButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718749B1094E29500243DA7 /* roundButton.cpp */; };
 		271874A11094E29500243DA7 /* roundRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718749D1094E29500243DA7 /* roundRect.cpp */; };
 		2718754C1094EBB300243DA7 /* GraphingCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */; };
+		2745B09D1258F77900FEA79E /* alert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2745B09C1258F77900FEA79E /* alert.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		2718749D1094E29500243DA7 /* roundRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roundRect.cpp; sourceTree = "<group>"; };
 		2718749E1094E29500243DA7 /* roundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roundRect.h; sourceTree = "<group>"; };
 		2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphingCalculator.cpp; sourceTree = "<group>"; };
+		2745B09B1258F77900FEA79E /* alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alert.h; sourceTree = "<group>"; };
+		2745B09C1258F77900FEA79E /* alert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alert.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +49,8 @@
 		271874611090BB7000243DA7 = {
 			isa = PBXGroup;
 			children = (
+				2745B09B1258F77900FEA79E /* alert.h */,
+				2745B09C1258F77900FEA79E /* alert.cpp */,
 				2718754B1094EBB300243DA7 /* GraphingCalculator.cpp */,
 				271874851090BC2300243DA7 /* graphics.h */,
 				271874991094E29500243DA7 /* button.cpp */,
@@ -126,6 +131,7 @@
 				271874A01094E29500243DA7 /* roundButton.cpp in Sources */,
 				271874A11094E29500243DA7 /* roundRect.cpp in Sources */,
 				2718754C1094EBB300243DA7 /* GraphingCalculator.cpp in Sources */,
+				2745B09D1258F77900FEA79E /* alert.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

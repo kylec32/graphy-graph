@@ -162,7 +162,6 @@ void button::draw()
 		int len;
 		len = (int) strlen(label);
 		text_output(((x1+x2)/2)-(len*4.5), (y1+y2)/2, label);
-		//text_output(-4.6, 4.55, label);
 		
 
 	}

@@ -74,12 +74,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="alert.cpp" />
     <ClCompile Include="button.cpp" />
     <ClCompile Include="GraphingCalculator.cpp" />
     <ClCompile Include="roundButton.cpp" />
     <ClCompile Include="roundRect.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="alert.h" />
     <ClInclude Include="button.h" />
     <ClInclude Include="glut.h" />
     <ClInclude Include="graphics.h" />
