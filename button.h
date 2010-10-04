@@ -23,12 +23,19 @@ private:
 	char *label;
 	bool outline;
 	double borderThick, borderR, borderG, borderB;
+	
+	void text_output(GLdouble x, GLdouble y, char *string);
+	
+	void drawRectangle(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2);
+	
+	void drawCircle(GLdouble x1, GLdouble y1, GLdouble radius);
+	
 public:
-	//button();
 
 	button(double x1, double y1, double x2, double y2, double r, double red, double green, double blue, char *label);
 
 	button(double x1, double y1, double x2, double y2, double r, double red, double green, double blue, char *label, bool outline);
+	
 	button(double x1, double y1, double x2, double y2, double r, double red, double green, double blue, char *label, double borderRed, double borderGreen, double borderBlue, double borderThick);
 	
 	void setText(char *label, double red, double green, double blue);
@@ -36,16 +43,10 @@ public:
 	void setColor(double red, double green, double blue);
 	
 	void setBordColor(double red, double green, double blue);
-	
-	void drawRectangle(GLdouble x1, GLdouble y1, GLdouble x2, GLdouble y2);
-	
-	void drawCircle(GLdouble x1, GLdouble y1, GLdouble radius);
 
 	bool inButton(double x, double y);
 
 	void draw();
-	
-	void text_output(GLdouble x, GLdouble y, char *string);
 
 	void changeSize(double x1, double y1, double x2, double y2);
 

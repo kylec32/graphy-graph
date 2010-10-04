@@ -44,13 +44,15 @@ protected:
 
 public:
 	roundRect(double x1, double y1, double x2, double y2, double r, double red, double green, double blue);
+	
 	roundRect(double x1, double y1, double x2, double y2, double r, double red, double green, double blue, bool outline);
+	
 	roundRect(double x1, double y1, double x2, double y2, double r, double red, double green, double blue, double borderRed, double borderGreen, double borderBlue, double borderThick);
+	
 	void draw();
 	
 	bool inRect(double x, double y);
 	
-
 	void changeSize(double x1, double y1, double x2, double y2);
 
 
