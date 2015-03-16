@@ -1,0 +1,1 @@
+GraphyGraph is a simple cross-platform graphing calculator designed as a first project into the open source community as well as to create a simple, fast graphing calculator for people on Mac or PC.
